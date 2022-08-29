@@ -1,0 +1,466 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?cxwo3x');
+    src: url('../fonts/icomoon.eot?cxwo3x#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?cxwo3x') format('truetype'),
+        url('../fonts/icomoon.woff?cxwo3x') format('woff'),
+        url('../fonts/icomoon.svg?cxwo3x#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+
+.container {
+    width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+/* 2.1 导航栏 */
+
+.nav {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    border-bottom: 2px solid #B1191A;
+    /* overflow: hidden; */
+}
+
+.product-categories {
+    float: left;
+    width: 209px;
+}
+
+.product-categories .categories-title {
+    width: 100%;
+    height: 45px;
+    background-color: #B1191A;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+
+.product-categories .categories-cont {
+    width: 209px;
+    height: 466px;
+    background-color: #C81623;
+}
+
+
+
+.categories-cont ul li {
+    width: 209px;
+    height: 31px;
+    line-height: 31px;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+
+.categories-cont ul li:hover {
+    background-color: #fff;
+
+}
+
+.categories-cont ul li:hover a {
+    color: #C81623;
+}
+
+
+.categories-cont ul li a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.categories-cont ul li a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    position: absolute;
+    top: 1px;
+    right: 9px;
+    width: 5px;
+    height: 5px;
+    color: #F7F7F7;
+}
+
+.nav-items {
+    float: left;
+    height: 45px;
+    width: 800px;
+    margin-left: 18px;
+
+}
+
+.nav-items li {
+    width: 88px;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    float: left;
+    margin: 0 2px;
+}
+
+.nav-items li a {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.nav-items li a:hover {
+    color: #C81623;
+}
+
+
+
+
+/*  2.2横幅栏(banner)部分 */
+
+
+.banner-row .container {
+    height: 466px;
+
+}
+
+ul.nav-p {
+    width: 66px;
+    height: 352px;
+    background-color: pink;
+    float: left;
+
+}
+
+ul.nav-p li {
+    width: 66px;
+    height: 32px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 31px;
+
+}
+
+ul.nav-p li a {
+    color: #666;
+    font-size: 12px;
+    border-bottom: 1px solid #ededed;
+}
+
+
+ul.nav-p li:hover {
+    background-color: #C81623;
+}
+
+ul.nav-p li:hover a {
+    color: #fff;
+}
+
+.banner-row .container .ban-img {
+    width: 721px;
+    height: 455px;
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+
+.container .newspaper {
+    width: 250px;
+    height: 454px;
+    float: left;
+
+    margin-top: 10px;
+}
+
+.container .newspaper .news-one {
+
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+
+/* .container .newspaper .news-box {
+    padding: 12px 16px 0;
+
+} */
+.news-box {
+    height: 162px;
+    width: 100%;
+}
+
+.container .newspaper .news-box .news-box-title {
+    height: 33px;
+    width: 250px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding-left: 16px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+
+}
+
+.container .newspaper .news-box .news-box-title span {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+}
+
+.container .newspaper .news-box .news-box-title span::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    display: inline-block;
+    margin-left: 6px;
+}
+
+/* .container .newspaper .news-box .news-box-content {
+    border-bottom: 1px solid #e4e4e4;
+} */
+
+.container .newspaper .news-box .news-box-content li {
+    margin: 6px auto 6px 16px;
+}
+
+.container .newspaper .news-box .news-box-content li span {
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.news-type {
+    width: 250px;
+    height: 208px;
+    border-top: 1px solid #ededed;
+}
+
+.news-type ul li {
+    width: 62.5px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    float: left;
+    text-align: center;
+
+}
+
+.news-type ul li a::before {
+    content: '';
+    display: block;
+    width: 26px;
+    height: 26px;
+
+    margin: 10px auto;
+}
+
+.news-type ul li:nth-child(1) a::before {
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.news-type ul li:nth-child(2) a::before {
+    background: url(../images/icons.png) no-repeat -78px -16px;
+}
+
+.news-type ul li:nth-child(3) a::before {
+    background: url(../images/icons.png) no-repeat -141px -16px;
+}
+
+.news-type ul li:nth-child(4) a::before {
+    background: url(../images/icons.png) no-repeat -206px -16px;
+}
+
+.news-type ul li:nth-child(5) a::before {
+    background: url(../images/icons.png) no-repeat -16px -89px;
+}
+
+.news-type ul li:nth-child(6) a::before {
+    background: url(../images/icons.png) no-repeat -78px -89px;
+}
+
+.news-type ul li:nth-child(7) a::before {
+    background: url(../images/icons.png) no-repeat -141px -89px;
+}
+
+.news-type ul li:nth-child(8) a::before {
+    background: url(../images/icons.png) no-repeat -206px -89px;
+}
+
+.news-type ul li:nth-child(9) a::before {
+    background: url(../images/icons.png) no-repeat -16px -160px;
+}
+
+.news-type ul li:nth-child(10) a::before {
+    background: url(../images/icons.png) no-repeat -78px -160px;
+}
+
+.news-type ul li:nth-child(11) a::before {
+    background: url(../images/icons.png) no-repeat -141px -160px;
+}
+
+.news-type ul li:nth-child(12) a::before {
+    background: url(../images/icons.png) no-repeat -206px -160px;
+}
+
+.bargain {
+    margin-top: 6px;
+}
+
+
+
+.ad-row .container {
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-today {
+
+    width: 206px;
+    height: 163px;
+    background-color: #5C5251;
+    /* img是行内块元素，给父级元素加 text-align:center;让其水平居中，而块级元素居中要给自己加margin：xpx auto; */
+    text-align: center;
+    line-height: 163px;
+    float: left;
+}
+
+.ad-item {
+    width: 994px;
+    height: 163px;
+    float: left;
+}
+
+.ad-item div[class^=img-box] {
+    width: 245px;
+    height: 161px;
+    float: left;
+}
+
+.ad-item div:nth-child(-n+3):after {
+
+    content: '';
+    float: right;
+    width: 1px;
+    height: 143px;
+    background-color: #DDDDDD;
+    margin-top: 10px;
+}
+
+.ad-item .img-box1 img,
+.ad-item .img-box4 img {
+    width: 244px;
+}
+
+/* 2.4具体分类 */
+/* 2.4.1 家用电器栏  */
+/* .home-elec-row {
+    height: 38px;
+} */
+
+.home-elec-row .container {
+    height: 398px;
+}
+
+.home-elec-row .container .home-elec-nav {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 17px;
+    border-bottom: 2px solid #C81623;
+}
+
+.container .home-elec-nav .elec-nav-title {
+    float: left;
+    font-size: 18px;
+    color: #C81623;
+}
+
+.container .home-elec-nav .elec-nav-type {
+    float: right;
+    line-height: 47px;
+}
+
+.elec-nav-type li {
+    float: left;
+
+}
+
+.elec-nav-type li a {
+    font-size: 12px;
+    width: 68px;
+    height: 15px;
+    /* line-height: 15px; */
+    padding: 0 6px;
+    position: relative;
+}
+
+.elec-nav-type li:nth-child(-n+8) a::after {
+    content: '';
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.home-elec-ad div[class^=product-ad] {
+    float: left;
+}
+
+.product-ad1-type {
+    width: 209px;
+    height: 100px;
+    padding: 0 10px;
+    background-color: #F9F9F9;
+}
+
+.product-ad1-type li {
+    border-bottom: 1px solid #EDEDED;
+    height: 32px;
+    width: 86px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    margin: 0 3px;
+}
+
+.product-ad1 a.tv img {
+    display: block;
+    width: 209px;
+}
+
+.product-ad3 a,
+.product-ad5 a {
+    display: block;
+}
+
+/*  4屏幕固定列表栏 */
+.elevator_list {
+
+    position: fixed;
+    top: 196px;
+    right: 280px;
+    background-color: #f5f5f5;
+}
+
+.elevator_list li {
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    border-bottom: 1px solid #999999;
+    padding: 0 10px;
+    line-height: 24px;
+}
+
+.elevator_list li a {
+
+
+    font-size: 14px;
+}

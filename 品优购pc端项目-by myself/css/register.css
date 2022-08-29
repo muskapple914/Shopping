@@ -1,0 +1,158 @@
+.container {
+    height: 82px;
+}
+
+.container .header-row {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #B1191A;
+    line-height: 82px;
+}
+
+.reg-content .container {
+    height: 520px;
+    border: 1px solid #DFDFDF;
+    margin-top: 21px;
+}
+
+.container .first-row {
+    width: 100%;
+    height: 41px;
+    background-color: #ececec;
+    line-height: 41px;
+    padding: 0 10px;
+}
+
+.first-row .register {
+    float: left;
+    font-size: 18px;
+
+
+}
+
+.first-row .login {
+    float: right;
+    font-size: 14px;
+    text-align: right;
+}
+
+.first-row .login a {
+    color: #c81623;
+}
+
+.container .register-information {
+    margin: 100px auto;
+}
+
+.register-information ul {
+    float: left;
+}
+
+.register-information ul li {
+    height: 36px;
+
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.register-information ul li:nth-child(3) {
+    margin-bottom: 3px;
+}
+
+.register-information ul li:nth-child(4) {
+    margin-bottom: 10px;
+    line-height: 36px;
+}
+
+.register-information ul:first-child {
+    margin-left: 313px;
+}
+
+.register-information ul:first-child li {
+    text-align: right;
+    font-size: 14px;
+
+}
+
+.form li {
+    width: 240px;
+}
+
+.form li input {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #999999;
+}
+
+/* .register-information .alert {
+    margin-left: 10px;
+} */
+
+.alert li {
+    font-size: 12px;
+    color: #DF3033;
+}
+
+.alert li img {
+    margin-left: 10px;
+    margin-right: 6px;
+}
+
+.form .safe-degree {
+    text-align: right;
+}
+
+.form .safe-degree span:nth-child(n+2) {
+    color: #fff;
+    display: inline-block;
+    width: 34px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.form .safe-degree span:nth-child(1) {
+    color: #B3B3B3;
+    font-size: 12px;
+}
+
+.form .safe-degree span:nth-child(2) {
+    background-color: #DE1111;
+}
+
+.form .safe-degree span:nth-child(3) {
+    background-color: #40B83F;
+}
+
+.form .safe-degree span:nth-child(4) {
+    background-color: #F79100;
+}
+
+.form li:nth-child(6) input {
+    width: 16px;
+    height: 15px;
+    margin-top: 28px;
+
+}
+
+.form li:nth-child(6) a {
+    color: #1BA1E6;
+}
+
+.form li:nth-child(6) {
+    margin-bottom: 38px;
+}
+
+.form li:nth-child(7) .finish-reg {
+    width: 200px;
+    height: 34px;
+    background-color: #C81623;
+
+    line-height: 34px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form li:nth-child(7) .finish-reg a {
+    color: #fff;
+}
